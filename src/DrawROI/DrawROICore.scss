@@ -1,0 +1,25 @@
+.DR-controls-wrapper {
+    position: absolute;
+    background-color: #d3d3d385;
+    top: 1rem;
+    width: 100%;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    display: flex;
+    flex-direction: row;
+
+    .DR-control1 {
+        border-radius: 4px;
+        margin-right: 0.8rem;
+        background-color: white;
+    }
+    .DR-control2 {
+        margin-right: 0.8rem;
+        position: absolute;
+        top: 4.3rem;
+        left: 1rem;
+
+        button {
+            margin-right: 0.8rem;
+        }
+    }
+}
